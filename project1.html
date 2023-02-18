@@ -1,3 +1,5 @@
+New loginpage
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -56,9 +58,15 @@
 			<input type="password" id="password" name="password" placeholder="Enter your password" required>
 			<button type="button" onclick="redirectToNewPage()">Login</button>
 			<script>
-      			function redirectToNewPage() {
-        			window.location.href = "newpage.html";
-      			}
+				function redirectToNewPage() {
+					const username = document.getElementById("username").value;
+					const password = document.getElementById("password").value;
+					if (username === "M1N9" && password === "M1N9") {
+						window.location.href = "newpage.html";
+					} else {
+						alert("Invalid username or password. Contact @The_CineLens for Login credentials.");
+					}
+				}
 			</script>
 		</form>
 	</div>
