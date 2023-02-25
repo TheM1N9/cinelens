@@ -1,0 +1,175 @@
+
+Follow @The_CineLens on telegram for movies
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie Portal</title>
+	<style>
+		body {
+			background-image: url("https://github.com/TheM1N9/image/blob/main/cinelens1.jpg?raw=true");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			padding: 20px;
+		}
+
+		.movie {
+			margin: 10px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 200px;
+			background-color: #f2f2f2;
+			padding: 10px;
+			border-radius: 5px;
+			box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+		}
+
+		.movie img {
+			margin-bottom: 10px;
+			width: 150px;
+			height: 200px;
+			object-fit: cover;
+			transition: transform 0.2s ease-in-out;
+		}
+
+.movie img:hover {
+  transform: scale(1.1);
+}
+		h2 {
+			margin-top: 0;
+			text-align: center;
+			color: white;
+			font-size: 36px;
+			text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+		}
+
+		h3 {
+			margin-top: 0;
+			text-align: left;
+			color: white;
+			font-size: 40px;
+			
+		}
+
+		p {
+			margin-top: 5px;
+			font-size: 18px;
+			color: #666;
+			text-align: center;
+		}
+		
+		form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      input[type="text"] {
+        padding: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+      }
+
+      input[type="submit"] {
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #333;
+        color: #fff;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+
+	.account-settings {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 20px;
+        font-size: 14px;
+	color: white;
+	  position: absolute;
+  top: 0;
+  right: 0;
+  margin-bottom: 10px;
+  margin-right: 20px;
+	
+      }
+
+      .account-settings a {
+        margin-right: 10px;
+        color: #333;
+        text-decoration: none;
+	color: white;
+	
+      }
+
+      .account-settings a:hover {
+        text-decoration: underline;
+      }
+	
+
+
+	</style>
+</head>
+<body>
+	
+	<form>
+        <input type="text" name="search" placeholder="Search...">
+        <input type="submit" value="Search">
+      </form>
+	<h2>New Releases</h2>
+	<div class="container">
+		<div class="movie">
+			<a href="sir.html"><img src="https://assets.gadgets360cdn.com/pricee/assets/product/202301/sir_1673854894.jpg" alt="Movie 1"></a>
+			<p>Sir</p>
+		</div>
+		<div class="movie">
+			<a href="katha.html"><img src="https://pbs.twimg.com/media/FgPCFoDacAE0c3M?format=jpg&name=900x900" alt="Movie 1"></a>
+			<p>VBVK</p>
+		</div>
+		<div class="movie">
+			<a href="antman.html"><img src="https://m.media-amazon.com/images/M/MV5BYjcyYTk0N2YtMzc4ZC00Y2E0LWFkNDgtNjE1MzZmMGE1YjY1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg" alt="Movie 1"></a>
+			<p>ANT-MAN and the Wasp</p>
+		</div>
+		<div class="movie">
+			<a href="veera.html"><img src="https://imgs.search.brave.com/7jjN83a4Xq-GG59IDSLSUXnyYKQEsSd7qKrCVw3Bkes/rs:fit:180:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC55/M2d1dW5mSmRtZEpi/U0RvbGJhc2JBQUFB/QSZwaWQ9QXBp" alt="Movie 1"></a>
+			<p>Veera Simha Reddy</p>
+		</div>
+		<div class="movie">
+			<a href="waltair.html"><img src="https://imgs.search.brave.com/RRU8s6vJLSu061UmIRF0bz8YDvJTkjf4zhqfhDDB254/rs:fit:452:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5y/aldJYjFGclhQTVVx/VGZ5bTlFU0VRSGFI/dyZwaWQ9QXBp" alt="Movie 2"></a>
+			<p>Waltair veerayya</p>
+		</div>
+		<div class="movie">
+			<a href="varisu.html"><img src="https://imgs.search.brave.com/GW8-H_870jxFQdC5z8dHtI1trpYPm7i0pZjUsaWHKxk/rs:fit:355:225:1/g:ce/aHR0cHM6Ly90c2Uz/LmV4cGxpY2l0LmJp/bmcubmV0L3RoP2lk/PU9JUC5iVE5qZEF3/dWdtNUN3YTZDUUxV/RUlRSGFKNCZwaWQ9/QXBp" alt="Movie 3"></a>
+			<p>Varisu</p>
+		</div>
+		<div class="movie">
+			<a href="michael.html"><img src="https://upload.wikimedia.org/wikipedia/en/e/e2/Michael_2023_film_poster.jpg" alt="Movie 4"></a>
+			<p>Michael</p>
+		</div>
+		<div class="movie">
+			<a href="amigos.html"><img src="https://imgs.search.brave.com/88r-KrNMsR27O2BXaGffB2NCA_dAKZNuzt9fLY6MoQw/rs:fit:620:728:1/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/bmV3LWxvb2stZnJv/bS10aGUtYW1pZ29z/LXN0YXJyaW5nLWth/bHlhbi1yYW0tcmVs/ZWFzaW5nLW9uLXYw/LTF0cHc1bWp0NWg5/YTEucG5nP2F1dG89/d2VicCZzPTk2NmI1/NjAxZDhlN2MyZDYy/MWI3NDI4MmI4YmU1/Njg4ZmJiOGJmOTA" alt="Movie 5"></a>
+			<p>Amigos</p>
+		</div>
+	</div>
+
+	
+		<div class="account-settings">
+        <a href="account.html">My Account</a>
+        <a href="project1.html">Logout</a>
+     
+	</body>
+	</html>
+	
